@@ -22,6 +22,7 @@ function loadfunction(){
     if (w <= 500) {
         document.getElementById("navbar").style.top = "-50px";
         document.getElementById("knop").style.display = "block";
+        document.getElementById("extraknop").style.display = "none";
     }
 }
 function scrollFunction() {
@@ -33,8 +34,12 @@ function scrollFunction() {
     if (h > 40 || w <= 500) {
         document.getElementById("navbar").style.top = "-50px";
         document.getElementById("knop").style.display = "block";
+        document.getElementById("extraknop").style.display = "none";
+
     } else {
         document.getElementById("navbar").style.top = "0px";
         document.getElementById("knop").style.display = "none";
+        document.getElementById("extraknop").style.display = "block";
+
     }
 }

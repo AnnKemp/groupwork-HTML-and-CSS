@@ -14,7 +14,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgb(0,0,0);
+    background-color: #171126;
     background-color: rgba(0,0,0, 0.9);
     overflow-x: hidden;
     transition: 0.5s;
@@ -50,7 +50,7 @@ ul{
 }
 .overlay ul li .booking_button{
     margin-top:15px;
-    background-color:yellow;
+    background-color:hotpink;
     height:60px;
     border: solid 3px orange;
     width: 170px;
@@ -63,17 +63,17 @@ ul{
     line-height: 2.4em;
 }
 .overlay ul li .booking_button:hover{
-    background-color:orange;
-    color:yellow;
-    border:solid 3px yellow;
+    background-color:yellow;
+    color:#171126;
+    border:solid 3px orange;
 }
 button {
     position: fixed;
-    background-color: azure;
-    top: 20px;
-    right: 20px;
-    width:50px;
-    height: 50px;
+    background-color:white;
+    top: 0px;
+    right:0px;
+    width:80px;
+    height:80px;
     font-size: 60px;
     border:none;
     display:none;
@@ -96,14 +96,14 @@ button {
     display:block;
     transition: top 0.3s;
     height: 49px;
-    background-color:chocolate;
+    background-color:#171126;
 }
 #navbar ul li a {
-    background-color:chocolate;
+
     float: left;
     width:12% ;
     display: block;
-    color:white;
+    color:#fecfba;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
@@ -115,26 +115,35 @@ button {
     padding:0px;
     width:80%;
     height: 100%;
-    border:solid red 1px;
+
 }
 #navbar a:hover {
     color: black;
 }
-#navbar ul li a.booking_button{
-    background-color:yellow;
-    height:70%;
-    border: solid 3px orange;
-    color:red;
+a.booking_button_navbar{
+    background-color:hotpink;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 3em;
+    text-decoration: none;
+    display: block;
+   position: absolute;
+    height:49px;
+    color:white;
     font-size:1em;
+   top: 0px;
+  right: 0px;
     width: 200px;
 }
 #navbar ul li .booking_button:hover{
-    background-color:orange;
-    color:yellow;
+    background-color:hotpink;
+    color:white;
 }
 /* for tablet */
 @media screen and (max-width: 700px) {
-    #navbar ul li a {
+
+    #navbar ul li a, .booking_button_navbar, #navbar, #extraknop {
         display:none;
     }
     #knop{
