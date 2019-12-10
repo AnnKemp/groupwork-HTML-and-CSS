@@ -1,0 +1,80 @@
+.wrap-contactus {
+    width: 600px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+input[type=text], textarea[type=text], input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: #f2f2f2;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding-left: 38%;
+    padding-right: 50%;
+    margin-top: 10px;
+}
+
+input[type=submit]:hover {
+    background-color: #211EE8;
+}
+
+textarea {
+    min-height: 115px;
+
+}
+
+.contact-form {
+    padding-left: 25%;
+}
+
+.contact-form-title {
+    background-image: url("https://1bfb40c0-a-62cb3a1a-s-sites.googlegroups.com/site/upbook52/qualities-of-a-good-hotel-receptionist/Qualities%20Of%20A%20Good%20Hotel%20Receptionist.jpg?attachauth=ANoY7cpE838sBnBPua-UW9MXG-1fMgo7BbIVXfDXPInJ1N5E4xicKpECG4ctC2bKL8GKmYHwlFf0xsK8KXpRZltKSgHdaHHBUn-r67hz7OL4nssU1JrtgowstbPSdqKvVqgOC1cSWZAYvUhw2e1tMf4vT8d2KojOyrfCgiFJqJAsLuGmVJ9AoMZj62raAc2ENbrRJEEgz318i91ZxVHnkMKnGC319zcmpRgDqqvY2rO3VI03-urqKYwJ0MhykndO-5AOD-50TupY_Z4YhXgBCCYnfPf9bHPU8EgbxRiqqyuUjNxc6aimhII%3D&attredirects=0");
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 64px 15px 64px 15px;
+    color: white;
+
+}
+
+.contact-form-title-1 {
+    content: "";
+    display: block;
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(54,84,99,0.7);
+    font-family: Poppins-bold;
+    font-size: 30px;
+    color: white;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 7px;
+}
+
