@@ -14,8 +14,8 @@
 <body>
 <h1>Rooms</h1>
 
-<div class="rooms">
-    <div class="container-fluid">
+<section class="rooms">
+        <section class="container-fluid normalOffer">
         <div class="row">
 
 
@@ -102,11 +102,12 @@
                 </div>
 
         </div>
+        </section>
+        <section class="container-fluid specialOffer">
         <div class="row">
-            <div class="col ">
-                <div class="card-columns">
+                <div class="col-sm-4 d-flex">
                     <!-- Room -->
-                    <div class="card card-special">
+                    <div class="card flex-fill card-special">
                         <img class="card-img-top" src="../../img/Room4/Room4a.jpeg" alt="Beautiful modern room with a view of the sea">
                         <div class="card-special-panel">special offer</div>
                         <div class="card-body">
@@ -114,6 +115,9 @@
                             <div class="rooms_text">
                                 <p>Maecenas sollicitudin tincidunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at.</p>
                             </div>
+
+                        </div>
+                        <div class="card-footer">
                             <table class="table table-borderless">
                                 <tbody>
                                 <tr>
@@ -130,14 +134,59 @@
                     </div>
 
                 </div>
+                 <div class="col-sm-8 d-flex">
+                     <!-- Explanation about icons -->
+                     <div class="card flex-fill" >
+                         <div class="row no-gutters">
+                             <div class="col-md">
+                                 <img src="../../img/Room4/Room4a.jpeg" class="card-img" alt="...">
+                             </div>
+                             <div class="col-md">
+                                 <div class="card-body">
+                                     <h5 class="card-title">Card title</h5>
+                                     <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                     <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+                 </div>
 
-                <div class="load_more_container text-center">
-                    <div class="load_more_button"><a href="#">load more rooms</a></div>
-                </div>
-            </div>
+
+
+
         </div>
-    </div>
-</div>
+        </section>
+    <hr>
+        <section class="container-fluid loadMore">
+        <div class="load_more_container text-center">
+            <div class="load_more_button"><a href="#">load more rooms</a></div>
+        </div>
+        </section>
+    <hr>
+</section>
+
+        <!-- modify this form HTML and place wherever you want your form -->
+<section class="container-fluid guestBook">
+    <form
+                action="https://formspree.io/meqonyky"
+                method="POST"
+        >
+            <label>
+                Your email:
+                <input type="text" name="_replyto">
+            </label>
+            <label>
+                Your message:
+                <textarea name="message"></textarea>
+            </label>
+
+            <!-- your other form fields go here -->
+
+            <button type="submit">Send</button>
+        </form>
+
+</section>
 
 
 <!-- Optional JavaScript -->
