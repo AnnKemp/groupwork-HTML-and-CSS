@@ -9,6 +9,8 @@
     <!-- This link to the stylesheet you have to copy in the head of your page because it makes the menu look good and function good -->
     <link rel="stylesheet" type="text/css" href="style_menu.css">
    <link rel="stylesheet" type="text/css" href="style_discoverPage.css">
+    <!-- CSS Classes for Parallax -->
+    <link rel="stylesheet" href="../../Sass/Footer/Footer-class.css">
     <!-- This link to the stylesheet you have to copy in the head of your page because it makes the menu look good and function good -->
 </head>
 <body>
@@ -39,7 +41,7 @@
     <button id="knop" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button>
 </header>
 <main class="container mx-auto p-3">
-
+<H2 class="mb-0" style="color:midnightblue">Discover Curaçao . . .</H2>
     <section class="row pt-5 pb-5">
         <article class="col-xs-9 col-md-7 align-self-center intro-text">
             <h2>Museums</h2>
@@ -50,19 +52,19 @@
             <img src="../../img/discover_page/Maritiem-Museum.png" class="float-right w-100" alt="Paris">
         </picture>
     </section>
-    <hr />
+    <hr class="spaceBelow" />
     <section class="row pt-5 pb-5">
         <picture class="col-xs-3 col-md-5">
             <img src="../../img/discover_page/CHRISTOFFELPARK.jpg" class="float-right w-100" alt="Paris">
         </picture>
         <article class="col-xs-9 col-md-7 align-self-center intro-text">
-            <h2>Christoffel Park</h2>
+            <h2 class="whiteSpace">Christoffel Park</h2>
             <p>
                 At the west end of the island is the impressive Christoffel Park, part of the island's national park system since 1978. The park, about a 40-minute drive from Willemstad, is the home of the 1,239-foot (377-meter) Mt. Christoffel, the island's highest point, as well as dozens of species of trees and plants, including an orchid forest, birds, lizards, and sea life, including nesting sea turtles.</p>
         </article>
 
     </section>
-    <hr />
+    <hr class="spaceBelow" />
     <section class="row pt-5 pb-5">
 
         <article class="col-xs-6 col-md-12 align-self-center">
@@ -73,7 +75,7 @@
             <img src="../../img/discover_page/hato-caves.jpg" class="float-left w-100" alt="London">
         </picture>
     </section>
-    <hr />
+    <hr class="spaceBelow" />
     <section class="row pt-5 pb-5">
 
 
@@ -81,7 +83,7 @@
                 <img src="../../img/discover_page/klein_curacao.jpg" class="float-right w-100" alt="Paris">
             </picture>
         <article class="col-xs-3 col-md-5 align-self-center intro-text">
-            <h2>Visit Klein Curacao</h2>
+            <h2 class="whiteSpace">Visit Klein Curacao</h2>
 
             <p>
 
@@ -93,7 +95,7 @@
         </article>
 
     </section>
-    <hr />
+    <hr class="spaceBelow" />
     <section class="row pt-5 pb-5">
         <article class="col-xs-6 col-md-12 align-self-center">
             <h2>Landhuis Chobolobo: Home of the Genuine Curacao Liqueur</h2>
@@ -108,11 +110,47 @@
     <!-- You have to place this line of code under your page content to let the menu work -->
     <script src="javaScript_menu.js"></script>
     <!-- You have to place this line of code under your page content to let the menu work -->
-    <hr />
+    <hr class="spaceBelow" />
 </main>
-    <footer class="pt-5 pb-5 mx-auto p-3">
-        @2017-2019 Company, Inc <a href="#">. Privacy . Terms</a><a href="#" class="float-right">back to top</a>
-    </footer
+<footer>
+    <section class="module parallax parallax-footer">
+        <div class="container-footer">
+            <div class="row">
+                <div class="col">
+                    <div class="footer-logo text-center">
+                        <a href="#"><img src="../../img/Logo/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="footer-content">
+                        <div class="row">
+                            <div class="col-lg-4 footer_col">
+                                <div class="footer-info d-flex flex-column align-items-lg-end align-items-center justify-content-start">
+                                    <div class="text-center">
+                                        <p>Phone: +546 990221 123</p><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 footer_col">
+                                <div class="footer-info d-flex flex-column align-items-center justify-content-start">
+                                    <div class="text-center">
+                                        <p>Address: Main Str, no 23, New York</p><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 footer_col">
+                                <div class="footer-info d-flex flex-column align-items-lg-start align-items-center justify-content-start">
+                                    <div class="text-center">
+                                        <p>Mail: hotel@contact.com</p><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</footer>
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
