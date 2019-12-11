@@ -4,91 +4,189 @@
     <meta charset="UTF-8">
     <meta name="description" content="About El Caribeño hotel">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../../Sass/Footer/Footer-class.css">
     <link rel="stylesheet" type="text/css" href="../../Sass/bootstrap-4.1.2/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../../Sass/about.css">
     <link rel="stylesheet" type="text/css" href="../../Sass/about_responsive.css">
+    <link rel="stylesheet" type="text/css" href="../../Sass/About.css">
+    <!-- CSS Classes for Parallax -->
+
+    <link rel="stylesheet" href="About.css">
+    <!-- This link to the stylesheet you have to copy in the head of your page because it makes the menu look good and function good -->
+    <link rel="stylesheet" type="text/css" href="../html-snippits/navbar project/style_menu.css">
+
+
     <title>About El Caribeño</title>
+    <link rel="stylesheet" >
+
 </head>
 <body>
 
+            <header class="container-fluid m-0 p-0">
+                <img class="headerimg" src="../../img/Header/Header10.jpg" class="img-fluid vh-2" alt="Responsive header image">
 
-        <header class="header">
+                <!-- this nav-html-code you have to paste it in your header-tag under the photo and you have to copy but the nav-blocks to make the menu work -->
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="rooms.html" class="booking_button_navbar" id="extraknop">Book your room</a>
 
+
+                <nav id="myNav" class="overlay" onclick="closeNav()">
+                    <ul class="overlay-content">
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About us</a></li>
+                        <li><a href="rooms.html">Rooms</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="rooms.html" class="booking_button">BOOK NOW</a></li>
+                    </ul>
+                </nav>
+                <button id="knop" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button>
+            <!-- this nav-html-code you have to paste it in your header-tag under the photo and you have to copy but the nav-blocks to make the menu work -->
+            <!-- you will also need the button, so you have to copy-paste this one too into the top of your page -->
         </header>
+        <main>
+            <section class="home">
+                <section class="intro">
+                    <article class="container">
+                        <article class="row row-eq-height">
 
-        <section class="home">
-            <section class="intro">
-                <article class="container">
-                    <article class="row row-eq-height">
-
-                        <!-- Content -->
-                        <article class="col-lg-6">
-                            <article class="intro_content">
-                                <article class="section_title">
-                                    <h1>Beach dreams in the Caribbean</h1>
-                                </article>
-                                <article class="intro-text">
-                                    Ideally located on the azure shores of the Caribbean, you're guaranteed to leave the El Caribeño relaxed and sun-kissed. Our luxury hotel caters to your every need with 24 hour room service, a spa and even a private beach for our guests. Whether you're here on a romantic getaway or exploring the beautiful Caribbean with family, we guarantee that El Caribeño has something for everyone.
+                            <!-- Content -->
+                            <article class="my-5 mx-3">
+                                <article class="intro_content">
+                                    <article class="section_title">
+                                        <h1>Beach dreams in the Caribbean</h1>
+                                    </article>
+                                    <article class="intro-text">
+                                        Ideally located on the azure shores of the Caribbean, you're guaranteed to leave the El Caribeño relaxed and sun-kissed. Our luxury hotel caters to your every need with 24 hour room service, a spa and even a private beach for our guests. Whether you're here on a romantic getaway or exploring the beautiful Caribbean with family, we guarantee that El Caribeño has something for everyone.
+                                    </article>
                                 </article>
                             </article>
                         </article>
-                    </article>
-                    <section class="container-fluid col-xl-12 col-md-12">
-                        <section class="row">
-                                <section class="d-flex">
-                                    <section class="m-3">
-                                        <a href="#Roomservice">
-                                        <img src="../../img/roomservice-card.jpg" alt="Room Service"/>
-                                        <p class="">Room Service</p>
-                                        </a>
-                                    </section>
-                                    <section class="m-3">
-                                        <a href="#Spa">
-                                            <img src="../../img/spa-card.jpg" alt="Our Spa"/>
+                        <section class="container-fluid col-xl-12 col-md-12">
+                            <section class="row">
+                                    <section class="d-flex">
+                                        <section id="about-card1" class="m-lg-3 m-md-3 m-sm-1">
+                                            <a href="#Roomservice">
+                                                <picture>
+                                                    <img src="../../img/About/roomservice-card.jpg" alt="Room Service"/>
+                                                </picture>
+                                                <button class="m-1 p-1 border-white btn-light"><p class="">Room Service</p></button>
+                                            </a>
+                                        </section>
+                                        <section id="about-card2" class="m-lg-3 m-md-3 m-sm-1">
+                                            <a href="#Spa">
+                                                <picture>
+                                                    <img src="../../img/About/spa-card.jpg" alt="Our Spa"/>
+                                                </picture>
 
-                                            <p class="">Our Day Spar</p>
-                                        </a>
+                                                <button class="m-1 p-1 border-white btn-light"><p class="">Our Day Spar</p></button>
+                                            </a>
+                                        </section>
+                                        <section id="about-card3" class="m-lg-3 m-md-3 m-sm-1">
+                                            <a href="#beach">
+                                                <picture>
+                                                    <img src="../../img/About/beach-card.jpg" alt="Our private beach"/>
+                                                </picture>
+                                                <button class="m-1 p-1 border-white btn-light"><p class="">Private beach</p></button>
+                                            </a>
+                                        </section>
                                     </section>
-                                    <section class="m-3">
-                                        <a href="#beach">
-                                            <img src="../../img/beach-card.jpg" alt="Our private beach"/>
-                                            <p class="">Private beach</p>
-                                        </a>
-                                    </section>
-                                </section>
+                            </section>
+                            <section class="my-4 border-top"></section>
+                            <h2>Always meeting our customer's needs</h2>
                         </section>
-                    </section>
-                    <section class="my-4">
-                        <a id="Roomservice"></a>
+                        <section class="my-4">
+                            <a id="Roomservice"></a>
 
-                        <img src="../../img/roomservice-long.jpg"/>
-                        <h2 class="my-4">Room Service</h2>
-                        <p>
-                            Our room service is the best. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra <mattis class=""></mattis>
-                        </p>
-                        <section class="my-4 border-top"></section>
-                    </section>
-                    <section class="my-4">
-                        <a id="Spa"></a>
+                            <picture>
+                                <img src="../../img/About/roomservice-long.jpg"/>
+                            </picture>
+                            <h2 class="my-4">Room Service</h2>
+                            <p>
+                                Our room service is the best. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra <mattis class=""></mattis>
+                            </p>
+                            <section class="my-4 border-top"></section>
+                        </section>
+                        <section class="my-4">
+                            <a id="Spa"></a>
 
-                        <img src="../../img/spa-long.jpg"/>
-                        <h2 class="my-4">Spa</h2>
-                        <p>
-                            Our spa is the best. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis.
-                        </p>
-                        <section class="my-4 border-top"></section>
-                    </section>
-                    <section class="my-4">
-                        <a  id="beach"></a>
-                        <img src="../../img/beach-long.jpg"/>
-                        <h2 class="my-4">The private beach of El Caribeño</h2>
-                        <p>
-                            Our private beach is the best. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis.
-                        </p>
-                        <section class="my-4 border-top"></section>
-                    </section>
-                </article>
+                            <picture>
+                                <img src="../../img/About/spa-long.jpg"/>
+                            </picture>
+                            <h2 class="my-4">Spa</h2>
+                            <p>
+                                Our spa is the best. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis.
+                            </p>
+                            <section class="my-4 border-top"></section>
+                        </section>
+                        <section class="my-4">
+                            <a  id="beach"></a>
+                            <picture>
+                                <img src="../../img/About/beach-long.jpg"/>
+                            </picture>
+                            <h2 class="my-4">The private beach of El Caribeño</h2>
+                            <p>
+                                Our private beach is the best. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis nulla, id laoreet neque scelerisque at. Quisque eget sem non ligula consectetur ultrices in quis augue. Donec imperd iet leo eget tortor dictum, eget varius eros sagittis. Curabitur tempor dignissim massa ut faucibus sollicitudin tinci dunt maximus. Morbi tempus malesuada erat sed pellentesque. Donec pharetra mattis.
+                            </p>
+                            <section class="my-4 border-top"></section>
+                        </section>
+                    </article>
+                </section>
             </section>
-        </section>
+        </main>
+
+            <footer>
+                <section class="module parallax parallax-footer">
+                    <div class="container-footer">
+                        <div class="row">
+                            <div class="col">
+                                <div class="footer-logo text-center">
+                                    <a href="#"><img src="../../img/Logo/logo.png" alt="logo"></a>
+                                </div>
+                                <div class="footer-content">
+                                    <div class="row">
+                                        <div class="col-lg-4 footer_col">
+                                            <div class="footer-info d-flex flex-column align-items-lg-end align-items-center justify-content-start">
+                                                <div class="text-center">
+                                                    <p>Phone: +546 990221 123</p><br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 footer_col">
+                                            <div class="footer-info d-flex flex-column align-items-center justify-content-start">
+                                                <div class="text-center">
+                                                    <p>Address: Main Str, no 23, New York</p><br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 footer_col">
+                                            <div class="footer-info d-flex flex-column align-items-lg-start align-items-center justify-content-start">
+                                                <div class="text-center">
+                                                    <p>Mail: hotel@contact.com</p><br>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+            </footer>
+            <!-- You have to place this line of code under your page content to let the menu work -->
+            <script src="javaScript_menu.js"></script>
+            <!-- You have to place this line of code under your page content to let the menu work -->
+            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+            <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
