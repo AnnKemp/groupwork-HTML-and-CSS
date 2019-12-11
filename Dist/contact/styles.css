@@ -21,12 +21,10 @@ input[type=text], textarea[type=text], input[type=email] {
 input[type=submit] {
     background-color: #4CAF50;
     color: white;
-    padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    padding-left: 38%;
-    padding-right: 50%;
+    padding: 12px 50% 12px 38%;
     margin-top: 10px;
 }
 
@@ -69,7 +67,7 @@ textarea {
     top: 0;
     left: 0;
     background-color: rgba(54,84,99,0.7);
-    font-family: Poppins-bold;
+    font-family: Poppins-bold, serif;
     font-size: 30px;
     color: white;
     line-height: 1.2;
@@ -78,3 +76,42 @@ textarea {
     padding-bottom: 7px;
 }
 
+.social-media-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100px;
+    padding: 20px 3px;
+    color: white;
+    text-align: center;
+    background-color: #0c5460;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 10px;
+}
+
+.fa: hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
