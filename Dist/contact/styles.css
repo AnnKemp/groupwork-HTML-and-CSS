@@ -1,3 +1,5 @@
+
+
 .wrap-contactus {
     width: 600px;
     background: white;
@@ -97,7 +99,7 @@ textarea {
     margin: 5px 10px;
 }
 
-.fa: hover {
+.fa:hover {
     opacity: 0.7;
 }
 
@@ -115,3 +117,6 @@ textarea {
     background: #125688;
     color: white;
 }
+
+
+
