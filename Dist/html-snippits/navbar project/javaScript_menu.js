@@ -31,7 +31,7 @@ function scrollFunction() {
         || document.body.clientWidth;
     var h= document.body.scrollTop || document.documentElement.scrollTop
 
-    if (h > 40 || w <= 500) {
+    if (h > 500 || w <= 500) {
         document.getElementById("navbar").style.top = "-50px";
         document.getElementById("knop").style.display = "block";
         document.getElementById("extraknop").style.display = "none";
