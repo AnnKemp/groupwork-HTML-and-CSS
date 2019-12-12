@@ -106,21 +106,21 @@ textarea {
 }
 
 .social-title {
-    width: 100%;
     font-size: 18px;
     font-weight: lighter;
     color: #ffa07f;
-    text-align: center;
+    font-family: cinzel;
 }
 
 #testingflex {
     display: flex;
     flex-direction: column;
 }
+
 #flexxxx {
     display: flex;
     flex-direction: row;
-
+    margin-left: 22px;
 }
 
 .btn {
@@ -128,7 +128,6 @@ textarea {
     width: 50px;
     height: 50px;
     background: #f1f1f1;
-    margin: 10px;
     border-radius: 30%;
     box-shadow: 0 5px 15px -5px #00000070;
     color: #ffa07f;
