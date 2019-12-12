@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="About El Caribeño hotel">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <link rel="stylesheet" href="../../Sass/Footer/Footer-class.css">
     <link rel="stylesheet" type="text/css" href="../../Sass/bootstrap-4.1.2/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../../Sass/about.css">
     <link rel="stylesheet" type="text/css" href="../../Sass/about_responsive.css">
     <link rel="stylesheet" type="text/css" href="../../Sass/About.css">
     <!-- CSS Classes for Parallax -->
@@ -15,41 +14,44 @@
     <!-- This link to the stylesheet you have to copy in the head of your page because it makes the menu look good and function good -->
     <link rel="stylesheet" type="text/css" href="../html-snippits/navbar project/style_menu.css">
 
-
+    <!-- SEO requirements -->
     <title>About El Caribeño</title>
-    <link rel="stylesheet" >
+    <meta name="description" content="About El Caribeño hotel and it's services such as their exclusive private beach, day spa and 24-hour room service.">
+    <meta name="og:About El Caribeño" property="og:website" content="About El Caribeño's Services">
+
 
 </head>
 <body>
 
             <header class="container-fluid m-0 p-0">
                 <picture id="headerimg">
-                    <img src="../../img/Header/Header9.jpg" class="img-fluid vh-2" alt="Beautiful Beaches">
+                    <img src="../../img/Header/Header10.jpg" class="img-fluid" width="100%" alt="Beautiful Beaches">
                 </picture>
 
                 <!-- this nav-html-code you have to paste it in your header-tag under the photo and you have to copy but the nav-blocks to make the menu work -->
                 <nav id="navbar">
                     <ul>
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="rooms.html">Rooms</a></li>
-                        <li><a href="discover.html">Discover</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="../about/about.html">About us</a></li>
+                        <li><a href="../rooms/rooms.html">Rooms</a></li>
+                        <li><a href="../discover/discover.html">Discover</a></li>
+                        <li><a href="../contact/index.html">Contact</a></li>
                     </ul>
                 </nav>
-                <a href="rooms.html" class="booking_button_navbar" id="extraknop">Book your room</a>
+                <a href="../rooms/rooms.html" class="booking_button_navbar" id="booking_button_main_nav">Book your room</a>
 
 
                 <nav id="myNav" class="overlay" onclick="closeNav()">
                     <ul class="overlay-content">
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="about.html">About us</a></li>
-                        <li><a href="rooms.html">Rooms</a></li>
-                        <li><a href="discover.html">Discover</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                        <li><a href="rooms.html" class="booking_button">BOOK NOW</a></li>
+                        <li><a href="../../index.html">Home</a></li>
+                        <li><a href="../about/about.html">About us</a></li>
+                        <li><a href="../rooms/rooms.html">Rooms</a></li>
+                        <li><a href="../discover/discover.html">Discover</a></li>
+                        <li><a href="../contact/index.html">Contact</a></li>
+                        <li><a href="../rooms/rooms.html" class="booking_button">BOOK NOW</a></li>
                     </ul>
                 </nav>
+                
                 <button id="knop" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button>
             <!-- this nav-html-code you have to paste it in your header-tag under the photo and you have to copy but the nav-blocks to make the menu work -->
             <!-- you will also need the button, so you have to copy-paste this one too into the top of your page -->
@@ -80,7 +82,7 @@
                                                 <picture>
                                                     <img src="../../img/About/roomservice-card.jpg" alt="Room Service"/>
                                                 </picture>
-                                                <button class="m-1 p-1 border-white btn-light"><p class="">Room Service</p></button>
+                                                <button class="m-1 p-1 border-white btn-light">Room Service</button>
                                             </a>
                                         </section>
                                         <section id="about-card2" class="m-lg-3 m-md-3 m-sm-1">
@@ -89,7 +91,7 @@
                                                     <img src="../../img/About/spa-card.jpg" alt="Our Spa"/>
                                                 </picture>
 
-                                                <button class="m-1 p-1 border-white btn-light"><p class="">Our Day Spar</p></button>
+                                                <button class="m-1 p-1 border-white btn-light">Our Day Spar</button>
                                             </a>
                                         </section>
                                         <section id="about-card3" class="m-lg-3 m-md-3 m-sm-1">
@@ -97,7 +99,7 @@
                                                 <picture>
                                                     <img src="../../img/About/beach-card.jpg" alt="Our private beach"/>
                                                 </picture>
-                                                <button class="m-1 p-1 border-white btn-light"><p class="">Private beach</p></button>
+                                                <button class="m-1 p-1 border-white btn-light">Private beach</button>
                                             </a>
                                         </section>
                                     </section>
