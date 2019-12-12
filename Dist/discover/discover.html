@@ -9,37 +9,39 @@
     <!-- This link to the stylesheet you have to copy in the head of your page because it makes the menu look good and function good -->
     <link rel="stylesheet" type="text/css" href="style_menu.css">
    <link rel="stylesheet" type="text/css" href="style_discoverPage.css">
+    <!-- CSS Classes for Parallax -->
+    <link rel="stylesheet" href="../../Sass/Footer/Footer-class.css">
     <!-- This link to the stylesheet you have to copy in the head of your page because it makes the menu look good and function good -->
 </head>
 <body>
 <header class="container-fluid m-0 p-0">
-        <img src="../../img/Header/Header2.jpg"  class="img-fluid vh-2 m-0 p-0" alt="Responsive header image">
+        <img class="img-fluid vh-2 m-0 p-0 parallax1" alt="Responsive header image">
     <nav id="navbar">
         <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="rooms.html">Rooms</a></li>
-            <li><a href="discover.html">Discover</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../about/about.html">About us</a></li>
+            <li><a href="../rooms/rooms.html">Rooms</a></li>
+            <li><a href="../discover/discover.html">Discover</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
         </ul>
     </nav>
-    <a href="rooms.html" class="booking_button_navbar" id="extraknop">Book your room</a>
+    <a href="../rooms/rooms.html" class="booking_button_navbar" id="extraknop">Book your room</a>
 
 
     <nav id="myNav" class="overlay" onclick="closeNav()">
         <ul class="overlay-content">
-            <li><a href="home.html">Home</a></li>
-            <li><a href="about.html">About us</a></li>
-            <li><a href="rooms.html">Rooms</a></li>
-            <li><a href="discover.html">Discover</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="rooms.html" class="booking_button">BOOK NOW</a></li>
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../about/about.html">About us</a></li>
+            <li><a href="../rooms/rooms.html">Rooms</a></li>
+            <li><a href="../discover/discover.html">Discover</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+            <li><a href="../rooms/rooms.html" class="booking_button">BOOK NOW</a></li>
         </ul>
     </nav>
     <button id="knop" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button>
 </header>
 <main class="container mx-auto p-3">
-
+<H2 class="mb-0" style="color:midnightblue">Discover Curaçao . . .</H2>
     <section class="row pt-5 pb-5">
         <article class="col-xs-9 col-md-7 align-self-center intro-text">
             <h2>Museums</h2>
@@ -50,19 +52,19 @@
             <img src="../../img/discover_page/Maritiem-Museum.png" class="float-right w-100" alt="Paris">
         </picture>
     </section>
-    <hr />
+    <hr class="spaceBelow" />
     <section class="row pt-5 pb-5">
         <picture class="col-xs-3 col-md-5">
-            <img src="../../img/discover_page/CHRISTOFFELPARK.jpg" class="float-right w-100" alt="Paris">
+            <img src="../../img/discover_page/CHRISTOFFELPARK.jpg" class="float-right w-100" alt="Christoffelpark">
         </picture>
         <article class="col-xs-9 col-md-7 align-self-center intro-text">
-            <h2>Christoffel Park</h2>
+            <h2 class="whiteSpace">Christoffel Park</h2>
             <p>
                 At the west end of the island is the impressive Christoffel Park, part of the island's national park system since 1978. The park, about a 40-minute drive from Willemstad, is the home of the 1,239-foot (377-meter) Mt. Christoffel, the island's highest point, as well as dozens of species of trees and plants, including an orchid forest, birds, lizards, and sea life, including nesting sea turtles.</p>
         </article>
 
     </section>
-    <hr />
+    <hr class="spaceBelow" />
     <section class="row pt-5 pb-5">
 
         <article class="col-xs-6 col-md-12 align-self-center">
@@ -70,18 +72,18 @@
             <p>Centre of it all is the bustling city of Willemstad. When you want to get away to find some quiet, you will find it easy to find the sights of Curacao. There is plenty to see and do in the cunucu (countryside). Just north of town, near Hato International Airport, are the Hato Caves. The caves, gouged out of limestone cliffs ages ago as the island emerged from the sea, are still forming, albeit by one drop at a time.</p>
         </article>
         <picture class="col-xs-6 col-md-12">
-            <img src="../../img/discover_page/hato-caves.jpg" class="float-left w-100" alt="London">
+            <img src="../../img/discover_page/hato-caves.jpg" class="float-left w-100" alt="hato-caves">
         </picture>
     </section>
-    <hr />
+    <hr class="spaceBelow" />
     <section class="row pt-5 pb-5">
 
 
             <picture class="col-xs-9 col-md-7">
-                <img src="../../img/discover_page/klein_curacao.jpg" class="float-right w-100" alt="Paris">
+                <img src="../../img/discover_page/klein_curacao.jpg" class="float-right w-100" alt="KLein curacao">
             </picture>
         <article class="col-xs-3 col-md-5 align-self-center intro-text">
-            <h2>Visit Klein Curacao</h2>
+            <h2 class="whiteSpace">Visit Klein Curacao</h2>
 
             <p>
 
@@ -93,7 +95,7 @@
         </article>
 
     </section>
-    <hr />
+    <hr class="spaceBelow" />
     <section class="row pt-5 pb-5">
         <article class="col-xs-6 col-md-12 align-self-center">
             <h2>Landhuis Chobolobo: Home of the Genuine Curacao Liqueur</h2>
@@ -102,17 +104,53 @@
             </p>
         </article>
         <picture class="col-xs-6 col-md-12">
-            <img src="../../img/discover_page/Blue-Curacao-Liqueur.jpg" class="float-right w-100" alt="moskou">
+            <img src="../../img/discover_page/Blue-Curacao-Liqueur.jpg" class="float-right w-100" alt="blue curacao liquer">
         </picture>
     </section>
     <!-- You have to place this line of code under your page content to let the menu work -->
     <script src="javaScript_menu.js"></script>
     <!-- You have to place this line of code under your page content to let the menu work -->
-    <hr />
+    <hr class="spaceBelow" />
 </main>
-    <footer class="pt-5 pb-5 mx-auto p-3">
-        @2017-2019 Company, Inc <a href="#">. Privacy . Terms</a><a href="#" class="float-right">back to top</a>
-    </footer
+<footer>
+    <section class="module parallax parallax-footer">
+        <div class="container-footer">
+            <div class="row">
+                <div class="col">
+                    <div class="footer-logo text-center">
+                        <a href="#"><img src="../../img/Logo/logo.png" alt="logo"></a>
+                    </div>
+                    <div class="footer-content">
+                        <div class="row">
+                            <div class="col-lg-4 footer_col">
+                                <div class="footer-info d-flex flex-column align-items-lg-end align-items-center justify-content-start">
+                                    <div class="text-center">
+                                        <p>Phone: +546 990221 123</p><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 footer_col">
+                                <div class="footer-info d-flex flex-column align-items-center justify-content-start">
+                                    <div class="text-center">
+                                        <p>Address: Main Str, no 23, New York</p><br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 footer_col">
+                                <div class="footer-info d-flex flex-column align-items-lg-start align-items-center justify-content-start">
+                                    <div class="text-center">
+                                        <p>Mail: hotel@contact.com</p><br>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</footer>
 </div>
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
