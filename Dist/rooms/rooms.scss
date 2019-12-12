@@ -1,4 +1,8 @@
-
+$cardSpecialBodyH2Color: #ffffff;
+$cardSpecialBodyPColor: #ffffff;
+$cardSpecialBodyBgColor: #14213d;
+$cardSpecialRoomsPriceColor: #ffffff;
+$cardSpecialRoomsPriceSpanColor: #ffffff;
 @media screen and (max-width: 299px) {
   .iconRooms {
     max-width: 1.2em;
@@ -16,3 +20,353 @@
     max-width: 3em;
   }
 }
+
+
+
+*
+{
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+body
+{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  background: #FFFFFF;
+  color: #a5a5a5;
+}
+div
+{
+  display: block;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ul
+{
+  list-style: none;
+  margin-bottom: 0px;
+}
+p
+{
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  line-height: 1.86666666;
+  font-weight: 400;
+  color: #4a4f59;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  a
+  {
+    display: inline;
+    position: relative;
+    color: inherit;
+    border-bottom: solid 1px #ffa07f;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+  &:last-of-type
+  {
+    margin-bottom: 0;
+  }
+}
+a
+{
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+a, a:hover, a:visited, a:active, a:link
+{
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+p a:active
+{
+  position: relative;
+  color: #FF6347;
+}
+p a:hover
+{
+  color: #FFFFFF;
+  background: #ffa07f;
+}
+p a:hover::after
+{
+  opacity: 0.2;
+}
+::selection
+{
+  background: #d9d9d9;
+  color: #ffffff;
+}
+p::selection
+{
+
+}
+h1{font-size: 48px;}
+h2{font-size: 36px;}
+h3{font-size: 24px;}
+h4{font-size: 18px;}
+h5{font-size: 14px;}
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection
+{
+
+}
+img
+{
+  max-width: 100%;
+}
+
+section
+{
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.button
+{
+  width: 186px;
+  height: 65px;
+  background: #ff9000;
+  text-align: center;
+  border: solid 2px #ff9000;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.075em;
+    line-height: 61px;
+  }
+  &:hover {
+    a { color: #ff9000;
+    }
+    background: transparent;
+  }
+  &:active {
+    outline: none;
+  }
+
+}
+
+
+
+.section_title h1
+{
+  position: relative;
+  font-size: 36px;
+  font-weight: 400;
+  color: #150f24;
+  z-index: 1;
+  margin-top: -20px;
+}
+.section_title > div
+{
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 136px;
+  font-weight: 700;
+  color: #f4f5fa;
+  line-height: 0.75;
+  z-index: 0;
+}
+
+//Personal css Rooms//
+.row
+{
+
+}
+.rooms
+{
+  background: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 110px;
+}
+.card-columns
+{
+  -webkit-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 30px;
+  column-gap: 30px;
+  .card
+  {
+    margin-bottom: 35px;
+  }
+}
+.card
+{
+  border: none;
+  border-radius: 0px;
+}
+.card-img-top
+{
+  border-radius: 0px;
+}
+.card-body
+{
+  background: #f4f5fa;
+
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.card-special {
+  .card-body {
+    background: $cardSpecialBodyBgColor;
+
+    .rooms_title {
+      h2 {
+        color: $cardSpecialBodyH2Color;
+      }
+
+      .rooms_text {
+        p {
+          color: $cardSpecialBodyPColor;
+        }
+      }
+    }
+  }
+  .rooms_price {
+    color:$cardSpecialRoomsPriceColor;
+    span {
+      color: $cardSpecialRoomsPriceSpanColor;
+    }
+  }
+}
+.rooms_title {
+  h2 {
+    color: #150f24;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+  }
+}
+
+.rooms_text {
+  margin-top: 10px;
+  p {
+    webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+
+  }
+}
+
+.rooms_price
+{
+  font-size: 36px;
+  font-weight: 700;
+  color: #ff9000;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #4a4f59;
+    margin-left: 5px;
+  }
+}
+
+.rooms_button
+{
+
+}
+.card-special-panel
+{
+  position: absolute;
+  top: 27px;
+  right: -78px;
+  width: 181px;
+  height: 71px;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  color: #ffffff;
+  text-transform: uppercase;
+  letter-spacing: 0.075em;
+  line-height: 71px;
+  background: #443586;
+  z-index: 8;
+}
+.load_more_container
+{
+  margin-top: 0px;
+}
+.load_more_button
+{
+  width: 282px;
+  height: 65px;
+  background: #171126;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 2px #171126;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  a {
+    display: block;
+    height: 100%;
+    line-height: 61px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.075em;
+  }
+  &:hover {
+    background: transparent;
+    a {
+      color: #171126;
+    }
+  }
+}
+
