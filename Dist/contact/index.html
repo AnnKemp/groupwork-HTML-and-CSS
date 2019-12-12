@@ -5,11 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel= "stylesheet" type ="text/css" href = "styles.css"/>
+    <link rel= "stylesheet" type ="text/css" href = "footer.css"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
     <link rel="stylesheet" href="../../Sass/Footer/Footer-class.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../../Sass/Header/style_menu.css">
+    <link rel="stylesheet" type="text/css" href="../../Sass/base.css">
     <title>Contact</title>
 </head>
 <body>
+
+<!-- Navbar -->
+
+<header class="container-fluid m-0 p-0">
+    <img class="img-fluid vh-2 m-0 p-0 parallax1" src="../../img/Header/Header7.jpg" alt="Responsive header image" height="500" width="1280"/>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../about/About.html">About us</a></li>
+            <li><a href="../rooms/rooms.html">Rooms</a></li>
+            <li><a href="../discover/discover.html">Discover</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+    </nav>
+    <a href="../rooms/rooms.html" class="booking_button_navbar" id="booking_button_main_nav">Book your room</a>
+
+
+    <nav id="myNav" class="overlay" onclick="closeNav()">
+        <ul class="overlay-content">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../about/About.html">About us</a></li>
+            <li><a href="../rooms/rooms.html">Rooms</a></li>
+            <li><a href="../discover/discover.html">Discover</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+            <li><a href="../rooms/rooms.html" class="booking_button">BOOK NOW</a></li>
+        </ul>
+    </nav>
+    <button id="button_extra" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button>
+</header>
 
 <!-- Contact form -->
     <form action="https://formspree.io/xyyzadbq" method="POST">
@@ -120,6 +154,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="../../js/javaScript_menu.js"></script>
 
 </body>
 </html>

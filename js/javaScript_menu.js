@@ -19,7 +19,7 @@ window.onscroll = function() {scrollFunction()};
 window.onload=function(){loadFunction()};
 
 function loadfunction(){
-    if (w <= 500) {
+    if (w <= 950) {
         document.getElementById("navbar").style.top = "-50px";
         document.getElementById("button_extra").style.display = "block";
         document.getElementById("booking_button_navbar").style.display = "none";
@@ -31,7 +31,7 @@ function scrollFunction() {
         || document.body.clientWidth;
     var h= document.body.scrollTop || document.documentElement.scrollTop
 
-    if (h > 500 || w <= 500) {
+    if (h > 500 || w <= 950) {
         document.getElementById("navbar").style.top = "-50px";
         document.getElementById("button_extra").style.display = "block";
         document.getElementById("booking_button_navbar").style.display = "none";
