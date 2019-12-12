@@ -1,8 +1,22 @@
 $cardSpecialBodyH2Color: #ffffff;
 $cardSpecialBodyPColor: #ffffff;
 $cardSpecialBodyBgColor: #14213d;
-$cardSpecialRoomsPriceColor: #ffffff;
-$cardSpecialRoomsPriceSpanColor: #ffffff;
+$cardSpecialRoomsPriceColor: hotpink;
+$cardSpecialRoomsPriceSpanColor: hotpink;
+$cardSpecialPanelColor: #FFFFFF;
+$cardSpecialPanelBgColor: #443586;
+$roomsUndertitlePColor: hotpink;
+$roomsUndertitleColor: black;
+$roomsUndertitleH2Color: black;
+
+$roomsTitleH2Color: #150f24;
+$roomsTextPColor: blue;
+$roomsPriceColor: #ff9000;
+$roomsPriceSpanColor: #4a4f59;
+
+
+#more {display: none;}
+// For Javascript read more button
 @media screen and (max-width: 299px) {
   .iconRooms {
     max-width: 1.2em;
@@ -21,7 +35,7 @@ $cardSpecialRoomsPriceSpanColor: #ffffff;
   }
 }
 
-
+button {display: block;}
 
 *
 {
@@ -272,9 +286,18 @@ section
     }
   }
 }
+
+.rooms_undertitle{
+
+  p {
+    color: $roomsUndertitleColor;
+    font-weight: bolder;
+
+    }
+}
 .rooms_title {
   h2 {
-    color: #150f24;
+    color: $roomsTitleH2Color;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
@@ -291,7 +314,7 @@ section
     -ms-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
-
+    color: $roomsTextPColor;
   }
 }
 
@@ -299,7 +322,7 @@ section
 {
   font-size: 36px;
   font-weight: 700;
-  color: #ff9000;
+  color: $roomsPriceColor;
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
@@ -308,14 +331,14 @@ section
   span {
     font-size: 18px;
     font-weight: 700;
-    color: #4a4f59;
+    color: $roomsPriceSpanColor;
     margin-left: 5px;
   }
 }
 
 .rooms_button
 {
-
+display: block;
 }
 .card-special-panel
 {
@@ -327,11 +350,11 @@ section
   text-align: center;
   font-size: 14px;
   font-weight: 700;
-  color: #ffffff;
+  color: $cardSpecialPanelColor;
   text-transform: uppercase;
   letter-spacing: 0.075em;
   line-height: 71px;
-  background: #443586;
+  background: $cardSpecialPanelBgColor;
   z-index: 8;
 }
 .load_more_container

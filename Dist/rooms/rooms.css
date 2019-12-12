@@ -1,3 +1,7 @@
+#more {
+  display: none;
+}
+
 @media screen and (max-width: 299px) {
   .iconRooms {
     max-width: 1.2em;
@@ -13,6 +17,10 @@
     max-width: 3em;
   }
 }
+button {
+  display: block;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -236,10 +244,15 @@ section {
   color: #ffffff;
 }
 .card-special .rooms_price {
-  color: #ffffff;
+  color: hotpink;
 }
 .card-special .rooms_price span {
-  color: #ffffff;
+  color: hotpink;
+}
+
+.rooms_undertitle p {
+  color: black;
+  font-weight: bolder;
 }
 
 .rooms_title h2 {
@@ -260,6 +273,7 @@ section {
   -ms-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
+  color: blue;
 }
 
 .rooms_price {
@@ -279,6 +293,10 @@ section {
   margin-left: 5px;
 }
 
+.rooms_button {
+  display: block;
+}
+
 .card-special-panel {
   position: absolute;
   top: 27px;
@@ -288,7 +306,7 @@ section {
   text-align: center;
   font-size: 14px;
   font-weight: 700;
-  color: #ffffff;
+  color: #FFFFFF;
   text-transform: uppercase;
   letter-spacing: 0.075em;
   line-height: 71px;
