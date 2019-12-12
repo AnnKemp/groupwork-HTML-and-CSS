@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>El Caribeño</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="El Caribeño hotel">
+    <!-- This link to the stylesheet you have to copy in the head of your page because it makes the menu look good and function good -->
+    <link rel="stylesheet" type="text/css" href="../../Sass/Header/style_menu.css">
+    <link rel="stylesheet" type="text/css" href="../../Sass/base.css">
+    <!-- CSS Classes for Parallax -->
+    <link rel="stylesheet" href="../../Sass/Footer/Footer-class.css">
+    <!-- This link to the stylesheet you have to copy in the head of your page because it makes the menu look good and function good -->
+</head>
+<body>
+<header class="container-fluid m-0 p-0">
+    <img class="img-fluid vh-2 m-0 p-0 parallax1" alt="Responsive header image">
+    <nav id="navbar">
+        <ul>
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../about/about.html">About us</a></li>
+            <li><a href="../rooms/rooms.html">Rooms</a></li>
+            <li><a href="../discover/discover.html">Discover</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+    </nav>
+    <a href="../rooms/rooms.html" class="booking_button_navbar" id="booking_button_main_nav">Book your room</a>
+
+
+    <nav id="myNav" class="overlay" onclick="closeNav()">
+        <ul class="overlay-content">
+            <li><a href="../home/index.html">Home</a></li>
+            <li><a href="../about/about.html">About us</a></li>
+            <li><a href="../rooms/rooms.html">Rooms</a></li>
+            <li><a href="../discover/discover.html">Discover</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+            <li><a href="../rooms/rooms.html" class="booking_button">BOOK NOW</a></li>
+        </ul>
+    </nav>
+    <button id="button_extra" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button>
+</header>
+    <main>
+
+    </main>
+    <!-- You have to place this line of code under your page content to let the menu work -->
+    <script src="../../js/javaScript_menu.js"></script>
+    <!-- You have to place this line of code under your page content to let the menu work -->
+</body>
