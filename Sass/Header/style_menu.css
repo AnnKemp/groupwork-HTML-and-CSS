@@ -142,7 +142,7 @@ a.booking_button_navbar{
     color:white;
 }
 /* for tablet */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 950px) {
     #navbar ul li a, .booking_button_navbar, #navbar, #extraknop {
         display:none;
     }
