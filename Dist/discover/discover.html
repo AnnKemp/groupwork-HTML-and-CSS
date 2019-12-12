@@ -7,8 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Discover El Caribeño hotel">
     <!-- This link to the stylesheet you have to copy in the head of your page because it makes the menu look good and function good -->
-    <link rel="stylesheet" type="text/css" href="style_menu.css">
+
    <link rel="stylesheet" type="text/css" href="style_discoverPage.css">
+    <link rel="stylesheet" type="text/css" href="../../Sass/Header/style_menu.css">
+    <link rel="stylesheet" type="text/css" href="../../Sass/base.css">
     <!-- CSS Classes for Parallax -->
     <link rel="stylesheet" href="../../Sass/Footer/Footer-class.css">
     <!-- This link to the stylesheet you have to copy in the head of your page because it makes the menu look good and function good -->
@@ -18,27 +20,27 @@
         <img class="img-fluid vh-2 m-0 p-0 parallax1" alt="Responsive header image">
     <nav id="navbar">
         <ul>
-            <li><a href="../home/index.html">Home</a></li>
-            <li><a href="../about/about.html">About us</a></li>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../about/About.html">About us</a></li>
             <li><a href="../rooms/rooms.html">Rooms</a></li>
             <li><a href="../discover/discover.html">Discover</a></li>
             <li><a href="../contact/index.html">Contact</a></li>
         </ul>
     </nav>
-    <a href="../rooms/rooms.html" class="booking_button_navbar" id="extraknop">Book your room</a>
+    <a href="../rooms/rooms.html" class="booking_button_navbar" id="booking_button_main_nav">Book your room</a>
 
 
     <nav id="myNav" class="overlay" onclick="closeNav()">
         <ul class="overlay-content">
-            <li><a href="../home/index.html">Home</a></li>
-            <li><a href="../about/about.html">About us</a></li>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../about/About.html">About us</a></li>
             <li><a href="../rooms/rooms.html">Rooms</a></li>
             <li><a href="../discover/discover.html">Discover</a></li>
             <li><a href="../contact/index.html">Contact</a></li>
             <li><a href="../rooms/rooms.html" class="booking_button">BOOK NOW</a></li>
         </ul>
     </nav>
-    <button id="knop" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button>
+    <button id="button_extra" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button>
 </header>
 <main class="container mx-auto p-3">
 <H2 class="mb-0" style="color:midnightblue">Discover Curaçao . . .</H2>
@@ -108,10 +110,11 @@
         </picture>
     </section>
     <!-- You have to place this line of code under your page content to let the menu work -->
-    <script src="javaScript_menu.js"></script>
+    <script src="../../js/javaScript_menu.js"></script>
     <!-- You have to place this line of code under your page content to let the menu work -->
     <hr class="spaceBelow" />
 </main>
+<!-- Footer -->
 <footer>
     <section class="module parallax parallax-footer">
         <div class="container-footer">
@@ -125,21 +128,21 @@
                             <div class="col-lg-4 footer_col">
                                 <div class="footer-info d-flex flex-column align-items-lg-end align-items-center justify-content-start">
                                     <div class="text-center">
-                                        <p>Phone: +546 990221 123</p><br>
+                                        <p>Phone: <a href="tel:+546990221123">+546 990221 123</a></p><br>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 footer_col">
                                 <div class="footer-info d-flex flex-column align-items-center justify-content-start">
                                     <div class="text-center">
-                                        <p>Address: Main Str, no 23, New York</p><br>
+                                        <p>Address: Blue Bay Resort, BP 04, Willemstad, Curaçao</p><br>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-lg-4 footer_col">
                                 <div class="footer-info d-flex flex-column align-items-lg-start align-items-center justify-content-start">
                                     <div class="text-center">
-                                        <p>Mail: hotel@contact.com</p><br>
+                                        <p>Email: <a href="mailto:i7zgy8+hr3d702f4c2wx63d014n6i669s@guerrillamail.info?subject=Subject text">hotel-el-caribeno@guerillamail.info</a></p><br>
                                     </div>
                                 </div>
                             </div>
@@ -151,7 +154,7 @@
         </div>
     </section>
 </footer>
-</div>
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
