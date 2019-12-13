@@ -2,7 +2,7 @@ $cardSpecialBodyH2Color: rgba(249, 219, 189, 1);
 $cardSpecialBodyPColor: rgba(249, 219, 189, 1);
 $cardSpecialBodyBgColor: rgba(36, 32, 56, 1);
 $cardSpecialRoomsPriceColor: rgba(255, 105, 180, 1) ;
-$cardSpecialRoomsPriceSpanColor:rgba(255, 105, 180, 1) ;
+$cardSpecialRoomsPriceSpanColor:rgba(116, 179, 206, 1) ;
 $cardSpecialPanelColor:rgba(249, 219, 189, 1);
 $cardSpecialPanelBgColor: rgba(36, 32, 56, 1);
 $roomsUndertitlePColor: rgba(255, 105, 180, 1);
@@ -20,6 +20,12 @@ $color4: rgba(116, 179, 206, 1);
 $color5: rgba(249, 219, 189, 1);
 $color6: #f5f7e3;
 #more {display: none;}
+
+
+/*Card footer*/
+.card-footer {
+  background-color: darken(#f5f7e3,5);
+}
 // For Javascript read more button
 @media screen and (max-width: 299px) {
   .iconRooms {
