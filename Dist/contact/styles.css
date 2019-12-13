@@ -1,7 +1,16 @@
+.body {
+    background-color: #f5f7e3;
+}
+
 .contact
 {
-    background: #ffffff;
+    background: #f5f7e3;
     padding-top: 40px;
+
+}
+
+.contact_container {
+    padding-bottom: 50px;
 
 }
 .contact_text
@@ -49,7 +58,7 @@
 .contact-form {
     background-image: url("https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?cs=srgb&dl=blue-exotic-hotel-189296.jpg&fm=jpg");
     width: 100%;
-    padding: 75px 50px 75px 50px;
+    padding: 75px 50px 75px 0px;
 }
 
 .wrap-contactus {
@@ -103,7 +112,7 @@ textarea {
     background-size: cover;
     background-position: center;
     padding: 64px 15px 64px 15px;
-    color: white;
+    color: #f5f7e3;
 
 }
 
@@ -126,6 +135,13 @@ textarea {
     padding-bottom: 7px;
 }
 
+.map-title{
+    color: #242038;
+    font-family: 'cinzel', serif ;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+}
 .map-responsive {
     overflow: hidden;
     padding-bottom: 50%;
@@ -139,4 +155,5 @@ textarea {
     height: 100%;
     width: 100%;
     position: absolute;
+    border: solid;
 }
