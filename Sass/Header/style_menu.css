@@ -67,7 +67,7 @@ ul{
 .overlay ul{
     width: 26%;
 }
-button {
+#button_extra, #button_close {
     position: fixed;
     background-color:#F5F7E3;
     color:#666;
@@ -76,10 +76,14 @@ button {
     right:0;
     width:80px;
     height:80px;
-    font-size: 60px;
+    font-size:30px;
+    cursor:pointer;
     border:none;
     display:none;
-    z-index: 999;
+    z-index: 800;
+}
+#button_close {
+    display: none;
 }
 @media screen and (max-height: 450px) {
     .overlay a {font-size: 20px}
