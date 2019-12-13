@@ -2,6 +2,11 @@
   display: none;
 }
 
+/*Card footer*/
+.card-footer {
+  background-color: #eef1cf;
+}
+
 @media screen and (max-width: 299px) {
   .iconRooms {
     max-width: 1.2em;
@@ -247,7 +252,7 @@ section {
   color: hotpink;
 }
 .card-special .rooms_price span {
-  color: hotpink;
+  color: #74b3ce;
 }
 
 .rooms_undertitle p {
