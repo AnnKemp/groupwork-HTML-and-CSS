@@ -15,6 +15,7 @@ Welcome to our website (click the image to enter)
 	![The El Caribeño homepage!](https://emma-belg.github.io/El-Caribeno/)
 
 
+
 The website should give you these chill vibes
 
 ![beach vibes](/img/Header/Header4.jpg)
@@ -22,6 +23,6 @@ The website should give you these chill vibes
 ---
 
 #### Further notes
-We have decided to use this template primarily as a guide, however have coded most elements from scratch.
+We have decided to use this template primarily as a guide, however have coded most elements from scratch: https://colorlib.com/preview/theme/marimar/index.html.
 
 As per Google updated practices, we have not included keywords meta tag (see this source).
