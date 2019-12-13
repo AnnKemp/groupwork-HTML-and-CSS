@@ -1,20 +1,24 @@
-$cardSpecialBodyH2Color: #ffffff;
-$cardSpecialBodyPColor: #ffffff;
-$cardSpecialBodyBgColor: #14213d;
-$cardSpecialRoomsPriceColor: hotpink;
-$cardSpecialRoomsPriceSpanColor: hotpink;
-$cardSpecialPanelColor: #FFFFFF;
-$cardSpecialPanelBgColor: #443586;
-$roomsUndertitlePColor: hotpink;
-$roomsUndertitleColor: black;
-$roomsUndertitleH2Color: black;
+$cardSpecialBodyH2Color: rgba(249, 219, 189, 1);
+$cardSpecialBodyPColor: rgba(249, 219, 189, 1);
+$cardSpecialBodyBgColor: rgba(36, 32, 56, 1);
+$cardSpecialRoomsPriceColor: rgba(255, 105, 180, 1) ;
+$cardSpecialRoomsPriceSpanColor:rgba(255, 105, 180, 1) ;
+$cardSpecialPanelColor:rgba(249, 219, 189, 1);
+$cardSpecialPanelBgColor: rgba(36, 32, 56, 1);
+$roomsUndertitlePColor: rgba(255, 105, 180, 1);
+$roomsUndertitleColor: rgba(181, 202, 141, 1);
+$roomsUndertitleH2Color: rgba(181, 202, 141, 1);
 
-$roomsTitleH2Color: #150f24;
-$roomsTextPColor: blue;
-$roomsPriceColor: #ff9000;
-$roomsPriceSpanColor: #4a4f59;
-
-
+$roomsTitleH2Color: rgba(26, 40, 31, 1);
+$roomsTextPColor: rgba(26, 40, 31, 1);
+$roomsPriceColor: rgba(255, 105, 180, 1);
+$roomsPriceSpanColor: rgba(116, 179, 206, 1);
+$color1: rgba(255, 105, 180, 1);
+$color2: rgba(26, 40, 31, 1);
+$color3: rgba(36, 32, 56, 1);
+$color4: rgba(116, 179, 206, 1);
+$color5: rgba(249, 219, 189, 1);
+$color6: #f5f7e3;
 #more {display: none;}
 // For Javascript read more button
 @media screen and (max-width: 299px) {
@@ -50,7 +54,7 @@ body
   font-family: 'Lato', sans-serif;
   font-size: 15px;
   font-weight: 400;
-  background: #FFFFFF;
+  background: $color6;
   color: #a5a5a5;
 }
 div
@@ -170,9 +174,9 @@ section
 {
   width: 186px;
   height: 65px;
-  background: #ff9000;
+  background: $color1;
   text-align: center;
-  border: solid 2px #ff9000;
+  border: solid 2px $color1;
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
@@ -184,13 +188,13 @@ section
     width: 100%;
     font-size: 14px;
     font-weight: 700;
-    color: #ffffff;
+    color: $color6;
     text-transform: uppercase;
     letter-spacing: 0.075em;
     line-height: 61px;
   }
   &:hover {
-    a { color: #ff9000;
+    a { color: $color1;
     }
     background: transparent;
   }
@@ -223,13 +227,12 @@ section
 }
 
 //Personal css Rooms//
-.row
-{
 
-}
+
+
 .rooms
 {
-  background: #ffffff;
+  background: $color6;
   padding-top: 100px;
   padding-bottom: 110px;
 }
@@ -255,7 +258,8 @@ section
 }
 .card-body
 {
-  background: #f4f5fa;
+  background: darken($color6,10);
+
 
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
@@ -335,7 +339,15 @@ section
     margin-left: 5px;
   }
 }
-
+.specialP {
+  p {
+    color: $color6;
+    background-color: $color3;
+  }
+}
+.row
+{
+}
 .rooms_button
 {
 display: block;
