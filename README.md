@@ -23,7 +23,7 @@ _The website should give you these chill vibes_
 
 #### Further notes
 
-We have decided to use ['this template'](#https://colorlib.com/wp/template/marimar/) primarily as a guide, however have coded most elements from scratch.
+We have decided to use [this template](https://colorlib.com/wp/template/marimar/) primarily as a guide, however have coded most elements from scratch.
 
 
-As per Google updated practices, we have not included keywords meta tag (['see this source'](#https://www.advancedwebranking.com/blog/meta-tags-important-in-seo/)).
+As per Google updated practices, we have not included keywords meta tag ([see this source](https://www.advancedwebranking.com/blog/meta-tags-important-in-seo/)).
