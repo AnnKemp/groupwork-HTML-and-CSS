@@ -17,13 +17,13 @@ body
     font-size: 15px;
     font-weight: 400;
     background-color:#f5f7e3;
-    color: #a5a5a5;
+    color:#a5a5a5;
 }
 p
 {
     line-height: 1.86666666;
     font-weight: 400;
-    color: rgba(26, 40, 31, 1);;
+    color: #4a4f59;
 }
 h1{font-size: 48px;}
 h2{font-size: 36px;}
