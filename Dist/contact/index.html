@@ -5,123 +5,173 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel= "stylesheet" type ="text/css" href = "styles.css"/>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
-    <link rel="stylesheet" href="../../Sass/Footer/Footer-class.css">
+<!-- Additional fonts -->
     <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playball&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+<!-- Social media banner css -->
+    <link rel="stylesheet" href="../../Sass/Footer/smbanner.css">
+<!-- Header css -->
+    <link rel="stylesheet" type="text/css" href="../../Sass/Header/style_menu.css">
+    <link rel="stylesheet" type="text/css" href="../../Sass/base.css">
+<!-- Footer -->
+    <link rel="stylesheet" href="../../Sass/Footer/Footer-class.css">
+
     <title>Contact</title>
+
 </head>
+
+<!-- Navbar -->
 <body>
+<header class="container-fluid m-0 p-0">
+    <img class="img-fluid vh-2 m-0 p-0 parallax1" src="../../img/Header/Header7.jpg" alt="Responsive header image" height="500" width="1280"/>
+
+    <nav id="navbar">
+        <ul>
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../about/About.html">About us</a></li>
+            <li><a href="../rooms/rooms.html">Rooms</a></li>
+            <li><a href="../discover/discover.html">Discover</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+        </ul>
+    </nav>
+    <a href="../rooms/rooms.html" class="booking_button_navbar" id="booking_button_main_nav">Book your room</a>
+
+
+    <nav id="myNav" class="overlay" onclick="closeNav()">
+        <ul class="overlay-content">
+            <li><a href="../../index.html">Home</a></li>
+            <li><a href="../about/About.html">About us</a></li>
+            <li><a href="../rooms/rooms.html">Rooms</a></li>
+            <li><a href="../discover/discover.html">Discover</a></li>
+            <li><a href="../contact/index.html">Contact</a></li>
+            <li><a href="../rooms/rooms.html" class="booking_button">BOOK NOW</a></li>
+        </ul>
+    </nav>
+    <button id="button_extra" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</button>
+</header>
+
+<!-- Introduction -->
+<div class="contact">
+    <div class="contact_container">
+        <div class="row">
+            <div class="col">
+                <div class="section_title text-center">
+                    <div>Welcome</div>
+                    <h1 class="contact-us-title">Contact Us</h1>
+                </div>
+                <div class="contact_text text-center">
+                    <p class="contact-us-text">Get answers to your <strong>questions</strong> or give <strong>feedback</strong>, however you like to get in touch and wherever you are in the world. Choose from <i>email, phone</i> or an <i>online contact form</i> and we’ll help you direct your inquiries to the right place, quickly and easily.</p>
+                </div>
 
 <!-- Contact form -->
-    <form action="https://formspree.io/xyyzadbq" method="POST">
-        <div class="container d-flex">
-            <div class="wrap-contactus">
-                <div class="contact-form-title">
-                    <div class="contact-form-title-1">Get in touch with El Caribeño</div>
-            </div>
-
-            <form class="contact-form-content">
-
-                <label for="fname"></label><input type="text" id="fname" name="firstname" placeholder="Your name">
-
-                <label for="lname"></label><input type="text" id="lname" name="lastname" placeholder="Your last name">
-
-                <label for="email-address"></label><input type="email" id="email-address" name="_replyto" placeholder="Your email address" required="">
-
-                <label for="message"></label><textarea type="text" id="message" name="message" placeholder="Type your message here..."></textarea>
-
-                <input type="submit" value="Send message">
-
-            </form>
-        </div>
-    </div>
-    </form>
-    <div class="container">
-         <div class="row mx-md-n5 py-5">
-             <div class="col px-md-5">
-                <h3>Our hotel location</h3>
-                <div class="map map-responsive">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.6701775704655!2d-68.98592875008417!3d12.13470453593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8483415ed17621%3A0xd9c6f67c3c275340!2sBayside%20Boutique%20Hotel%20Curacao!5e0!3m2!1sen!2sbe!4v1575971297933!5m2!1sen!2sbe" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen></iframe>
-                </div>
-             </div>
-             <div class="col px-md-5">
-                <h3>Opening hours</h3>
-                 <p>Open 24 hours</p>
-            </div>
-         </div>
-    </div>
-
-<!-- Social Media Banner -->
-<section>
-
-    <div class="social-media-banner">
-        <div class="row" id="testingflex">
-            <div class="col-xs-12">
-                <p class="social-title">Follow us on social media:</p>
-            </div>
-            <div id="flexxxx">
-            <a class=" btn col-xs-12" href="https://www.facebook.com/" target="_blank">
-                <i class="fab fa-facebook-f"></i>
-            </a>
-            <a class="btn col-xs-12" href="https://twitter.com/?lang=en" target="_blank">
-                <i class="fab fa-twitter"></i>
-            </a>
-            <a class="btn col-xs-12" href="https://www.instagram.com/" target="_blank">
-                <i class="fab fa-instagram"></i>
-            </a>
-            </div>
-         </div>
-     </div>
-</section>
-
-<!-- Footer -->
-<footer>
-    <section class="module parallax parallax-footer">
-        <div class="container-footer">
-            <div class="row">
-                <div class="col">
-                    <div class="footer-logo text-center">
-                        <a href="#"><img src="../../img/Logo/logo.png" alt="logo"></a>
+    <section class="contact-form page-section-content vc_row-fluid mk-grid ">
+        <form action="https://formspree.io/xyyzadbq" method="POST">
+            <div class="container d-flex">
+                <div class="wrap-contactus">
+                    <div class="contact-form-title">
+                        <div class="contact-form-title-1">Get in touch with El Caribeño</div>
                     </div>
-                    <div class="footer-content">
-                        <div class="row">
-                            <div class="col-lg-4 footer_col">
-                                <div class="footer-info d-flex flex-column align-items-lg-end align-items-center justify-content-start">
-                                    <div class="text-center">
-                                        <p>Phone: <a href="tel:+546990221123">+546 990221 123</a></p><br>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 footer_col">
-                                <div class="footer-info d-flex flex-column align-items-center justify-content-start">
-                                    <div class="text-center">
-                                        <p>Address: Blue Bay Resort, BP 04, Willemstad, Curaçao</p><br>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-4 footer_col">
-                                <div class="footer-info d-flex flex-column align-items-lg-start align-items-center justify-content-start">
-                                    <div class="text-center">
-                                        <p>Email: <a href="mailto:i810il+9mo8a5fkvjzoi8oy6dwo96erxko@guerrillamail.info?subject=Subject text">hotel-el-caribeno@guerillamail.info</a></p><br>
-                                    </div>
-                                </div>
+
+                    <form class="contact-form-content">
+
+                        <label for="fname"></label><input type="text" id="fname" name="firstname" placeholder="Your name">
+
+                        <label for="lname"></label><input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+                        <label for="email-address"></label><input type="email" id="email-address" name="_replyto" placeholder="Your email address" required="">
+
+                        <label for="message"></label><textarea type="text" id="message" name="message" placeholder="Type your message here..."></textarea>
+
+                        <input type="submit" value="SEND MESSAGE">
+
+                    </form>
+                </div>
+            </div>
+        </form>
+    </section>
+                <div class="container">
+                    <div class="row mx-md-n5 py-5">
+                        <div class="col px-md-5">
+                            <h3>Find us quickly</h3>
+                            <div class="map map-responsive">
+                                <iframe title="Hotel Direction" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.6701775704655!2d-68.98592875008417!3d12.13470453593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8483415ed17621%3A0xd9c6f67c3c275340!2sBayside%20Boutique%20Hotel%20Curacao!5e0!3m2!1sen!2sbe!4v1575971297933!5m2!1sen!2sbe" width="600" height="450" allow="fullscreen"></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
-        </div>
-        <article class="mt-2 pb-4">
-            <p>&copy; 2019 El Caribeño, Inc. &middot; <a href="http://www.bootstrapdevelopment.com/privacy.htm" target="_blank">Privacy</a> &middot; <a href="https://definitions.uslegal.com/b/bootstrapping-rule/" target="_blank">Terms</a></p>
-        </article>
-    </section>
-</footer>
+<!-- Social Media Banner -->
+     <section>
 
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+         <div class="social-media-banner">
+             <div class="row" id="testingflex">
+                 <div class="col-xs-12">
+                     <p class="social-title">Follow us on social media:</p>
+                 </div>
+                 <div id="flexxxx">
+                     <a class=" btn col-xs-12" href="https://www.facebook.com/" target="_blank">
+                         <i class="fab fa-facebook-f"></i>
+                     </a>
+                     <a class="btn col-xs-12" href="https://twitter.com/?lang=en" target="_blank">
+                         <i class="fab fa-twitter"></i>
+                     </a>
+                     <a class="btn col-xs-12" href="https://www.instagram.com/" target="_blank">
+                         <i class="fab fa-instagram"></i>
+                     </a>
+                 </div>
+             </div>
+         </div>
+     </section>
 
+                <!-- Footer -->
+                <footer>
+                    <section class="module parallax parallax-footer">
+                        <div class="container-footer">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="footer-logo text-center">
+                                        <a href="#"><img src="../../img/Logo/logo.png" alt="logo"></a>
+                                    </div>
+                                    <div class="footer-content">
+                                        <div class="row">
+                                            <div class="col-lg-4 footer_col">
+                                                <div class="footer-info d-flex flex-column align-items-lg-end align-items-center justify-content-start">
+                                                    <div class="text-center">
+                                                        <p class="footer lines">Phone: <a href="tel:+546990221123">+546 990221 123</a></p><br>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 footer_col">
+                                                <div class="footer-info d-flex flex-column align-items-center justify-content-start">
+                                                    <div class="text-center">
+                                                        <p>Address: Blue Bay Resort, BP 04, Willemstad, Curaçao</p><br>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-4 footer_col">
+                                                <div class="footer-info d-flex flex-column align-items-lg-start align-items-center justify-content-start">
+                                                    <div class="text-center">
+                                                        <p>Email: <a href="mailto:i810il+9mo8a5fkvjzoi8oy6dwo96erxko@guerrillamail.info?subject=Subject text">hotel-el-caribeno@guerillamail.info</a></p><br>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <article class="mt-2 pb-4">
+                            <p>&copy; 2019 El Caribeño, Inc. &middot; <a href="http://www.bootstrapdevelopment.com/privacy.htm" target="_blank">Privacy</a> &middot; <a href="https://definitions.uslegal.com/b/bootstrapping-rule/" target="_blank">Terms</a></p>
+                        </article>
+                    </section>
+                </footer>
+
+                <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+                <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+                <script src="../../js/javaScript_menu.js"></script>
 </body>
 </html>
 

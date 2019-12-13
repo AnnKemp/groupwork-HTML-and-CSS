@@ -1,3 +1,7 @@
+#more {
+  display: none;
+}
+
 @media screen and (max-width: 299px) {
   .iconRooms {
     max-width: 1.2em;
@@ -13,6 +17,10 @@
     max-width: 3em;
   }
 }
+button {
+  display: block;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +33,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 15px;
   font-weight: 400;
-  background: #FFFFFF;
+  background: #f5f7e3;
   color: #a5a5a5;
 }
 
@@ -143,9 +151,9 @@ section {
 .button {
   width: 186px;
   height: 65px;
-  background: #ff9000;
+  background: hotpink;
   text-align: center;
-  border: solid 2px #ff9000;
+  border: solid 2px hotpink;
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
@@ -158,7 +166,7 @@ section {
   width: 100%;
   font-size: 14px;
   font-weight: 700;
-  color: #ffffff;
+  color: #f5f7e3;
   text-transform: uppercase;
   letter-spacing: 0.075em;
   line-height: 61px;
@@ -167,7 +175,7 @@ section {
   background: transparent;
 }
 .button:hover a {
-  color: #ff9000;
+  color: hotpink;
 }
 .button:active {
   outline: none;
@@ -193,7 +201,7 @@ section {
 }
 
 .rooms {
-  background: #ffffff;
+  background: #f5f7e3;
   padding-top: 100px;
   padding-bottom: 110px;
 }
@@ -218,7 +226,7 @@ section {
 }
 
 .card-body {
-  background: #f4f5fa;
+  background: #e7ecbb;
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
@@ -227,23 +235,28 @@ section {
 }
 
 .card-special .card-body {
-  background: #14213d;
+  background: #242038;
 }
 .card-special .card-body .rooms_title h2 {
-  color: #ffffff;
+  color: #f9dbbd;
 }
 .card-special .card-body .rooms_title .rooms_text p {
-  color: #ffffff;
+  color: #f9dbbd;
 }
 .card-special .rooms_price {
-  color: #ffffff;
+  color: hotpink;
 }
 .card-special .rooms_price span {
-  color: #ffffff;
+  color: hotpink;
+}
+
+.rooms_undertitle p {
+  color: #b5ca8d;
+  font-weight: bolder;
 }
 
 .rooms_title h2 {
-  color: #150f24;
+  color: #1a281f;
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
@@ -260,12 +273,13 @@ section {
   -ms-transition: all 200ms ease;
   -o-transition: all 200ms ease;
   transition: all 200ms ease;
+  color: #1a281f;
 }
 
 .rooms_price {
   font-size: 36px;
   font-weight: 700;
-  color: #ff9000;
+  color: hotpink;
   -webkit-transition: all 200ms ease;
   -moz-transition: all 200ms ease;
   -ms-transition: all 200ms ease;
@@ -275,8 +289,17 @@ section {
 .rooms_price span {
   font-size: 18px;
   font-weight: 700;
-  color: #4a4f59;
+  color: #74b3ce;
   margin-left: 5px;
+}
+
+.specialP p {
+  color: #f5f7e3;
+  background-color: #242038;
+}
+
+.rooms_button {
+  display: block;
 }
 
 .card-special-panel {
@@ -288,11 +311,11 @@ section {
   text-align: center;
   font-size: 14px;
   font-weight: 700;
-  color: #ffffff;
+  color: #f9dbbd;
   text-transform: uppercase;
   letter-spacing: 0.075em;
   line-height: 71px;
-  background: #443586;
+  background: #242038;
   z-index: 8;
 }
 

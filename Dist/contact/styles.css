@@ -1,12 +1,59 @@
-* {
-    margin: 0;
-    padding: 0;
+.contact
+{
+    background: #ffffff;
+    padding-top: 40px;
 
+}
+.contact_text
+{
+    padding-left: 135px;
+    padding-right: 135px;
+    margin-top: 58px;
+}
+
+.contact-us-title {
+    color: #242038;
+    font-family: 'cinzel', serif ;
+}
+
+.contact-us-text {
+    color: #1A281F;
+    font-size: 18px;
+
+}
+
+.subtitle-color {
+    color: #48BA81
+}
+.section_title h1
+{
+    position: relative;
+    font-size: 36px;
+    font-weight: 400;
+    color: #150f24;
+    z-index: 1;
+    margin-top: -20px;
+}
+
+.section_title > div
+{
+    font-family: 'playball', serif;
+    font-style: italic;
+    font-size: 136px;
+    font-weight: 700;
+    color: #E9FFE8;
+    line-height: 0.75;
+    z-index: 0;
+}
+
+.contact-form {
+    background-image: url("https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?cs=srgb&dl=blue-exotic-hotel-189296.jpg&fm=jpg");
+    width: 100%;
+    padding: 75px 50px 75px 50px;
 }
 
 .wrap-contactus {
     width: 600px;
-    background: white;
     border-radius: 10px;
     overflow: hidden;
     position: relative;
@@ -25,8 +72,9 @@ input[type=text], textarea[type=text], input[type=email] {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
+    background-color: #1A281F;
+    font-family: serif;
+    color: #F9DBBD;
     border: none;
     border-radius: 4px;
     cursor: pointer;
@@ -35,16 +83,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #211EE8;
+    background-color: #242038;
 }
 
 textarea {
     min-height: 115px;
 
-}
-
-.contact-form {
-    padding-left: 25%;
 }
 
 .contact-form-title {
@@ -73,9 +117,9 @@ textarea {
     top: 0;
     left: 0;
     background-color: rgba(54,84,99,0.7);
-    font-family: Poppins-bold, serif;
+    font-family: 'cinzel', serif;
     font-size: 30px;
-    color: white;
+    color: #F9DBBD;
     line-height: 1.2;
     text-align: center;
     padding-top: 50px;
@@ -95,80 +139,4 @@ textarea {
     height: 100%;
     width: 100%;
     position: absolute;
-}
-
-.social-media-banner {
-    display: flex;
-    justify-content: center;
-    padding: 20px 3px;
-    color: white;
-    background-color: #0c5460;
-}
-
-.social-title {
-    font-size: 18px;
-    font-weight: lighter;
-    color: #ffa07f;
-    font-family: cinzel;
-}
-
-#testingflex {
-    display: flex;
-    flex-direction: column;
-}
-
-#flexxxx {
-    display: flex;
-    flex-direction: row;
-    margin-left: 22px;
-}
-
-.btn {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    background: #f1f1f1;
-    border-radius: 30%;
-    box-shadow: 0 5px 15px -5px #00000070;
-    color: #ffa07f;
-    overflow: hidden;
-    position: relative;
-    font-size: 25px;
-    margin: 5px 10px;
-}
-
-.btn i{
-    font-size: 26px;
-    transition: 0.2s linear;
-}
-.btn:hover i{
-    transform: scale(1.3);
-    color: #f1f1f1;
-}
-.btn::before{
-    content: "";
-    position: absolute;
-    width: 120%;
-    height: 120%;
-    background: #ffa07f;
-    transform: rotate(45deg);
-    left: -110%;
-    top: 90%;
-}
-.btn:hover::before{
-    animation: aaa 0.7s 1;
-    top: -10%;
-    left: -10%;
-}
-@keyframes aaa {
-    0%{
-        left: -110%;
-        top: 90%;
-    }50%{
-         left: 10%;
-         top: -30%;
-     }100%{
-          top: -10%;
-          left: -10%;
-      }
 }
